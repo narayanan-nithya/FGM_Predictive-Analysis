@@ -9,7 +9,7 @@ We believe that data scientists can help presenting evidence indicating what cou
 
 ### Goal
 
-The goal of this study is to examine what factors might reduce or even end FGM and how log it might take to eradicate it. 
+The goal of this study is to examine what factors might reduce or even end FGM and how long it might take to eradicate it. 
 
 ### Methodology
 
