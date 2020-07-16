@@ -1,4 +1,4 @@
-# Female Genital Mutilation/Cutting prevalence - Geo_Spatial_Survival Analysis
+# Female Genital Mutilation/Cutting prevalence - Predictive Survival Analysis
 
 ### Background Information 
 
