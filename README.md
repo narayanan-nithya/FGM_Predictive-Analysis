@@ -1,4 +1,4 @@
-# Female Genital Mutilation/Cutting prevalence - Predictive Survival Analysis
+# Female Genital Mutilation/Cutting Prevalence - Predictive Survival Analysis
 
 ## Background Information 
 
@@ -23,7 +23,7 @@ UNICEF : Nationally representative data on FGM or Cutting are mainly available f
 * Cameroon
 * Central African Republic
 * Chad
-* Cote dâ€™ Ivoire
+* Cote d' Ivoire
 * Djibouti
 * Egypt
 * Eritrea
@@ -56,7 +56,7 @@ The original data were separated in 3 files: 1) prevalence of FGM by countries 2
 
 ### Analysis Methods:
 There are some limitations in the availability of data for some countries. Therefore, we used all the available data and conducted region-based analyses (Primarily Africa). 
-> Step 1: Analyze the overall characteristics of FGM practice using data visualization methods such as scatter plots and bar charts.
+> Step 1: Analyze the overall characteristics of FGM practice using data visualization methods such as scatter plots and bar charts.   
 > Step 2: Analyze what factors are associated with the prevalence of FGM using a regression analysis. The dependent variable was the prevalence of FGM, and the independent variables were percentages of urban/rural residents, income levels, education levels, and opposition of women against FGM.  
 > Step 3: Analyze how long it might potentially take to eradicate FGM practices using survival analysis if the percentage of women opposing FGM increases. The survival model was developed based on the data between 2010 and 2018.
 
