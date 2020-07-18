@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+        <h1>Female Genital Mutilation/Cutting prevalence - Predictive Survival Analysis</h1>
+
+<h2>Background Information:</h2>
+<p>The World Health Organization (WHO) defines Female Genital Mutilation/Cutting (FGM/C) as all procedures involving partial or total removal of the external female genitalia or other injury to the female genital organs for nonmedical reasons. The estimated number of women who have undergone FGM is <a href="https://data.unicef.org/topic/child-protection/female-genital-mutilation/#:~:text=Data%20sources,other%20nationally%20representative%20household%20surveys.">at least 200 million across 31 countries.</a> FGM can cause both short and long term health problems such as excessive bleeding, vaginal inflammation caused by bacteria and newborn death. Despite these negative health consequences and intensified eradication efforts, FGM has continuously been performed partly because of the evidence gaps that hinder a comprehensive evidence-based approach to FGM.</p>
+
+<p>We believe that data scientists can help reduce the evidence gap and present information that could potentially accelerate the FGM eradication effort.</p>
+
+<h2>Goal:</h2>
+<p>The goal of this study is to examine what factors might reduce FGM practices and how long it might take to eradicate it.</p>
+
+<h2>Methodology:</h2>
+<h3>Source Data:</h3>
+<p>UNICEF : Nationally representative data on FGM or Cutting are mainly available from <a href="https://data.unicef.org/topic/child-protection/female-genital-mutilation/#:~:text=Data%20sources,other%20nationally%20representative%20household%20surveys.">Demographic and Health Surveys (DHS) and Multiple Indicator Cluster Surveys (MICS).</a>   We used data from 2004 through 2018. </p>
+
+<h3>Countries included in the source data:</h3>
+<ul>Benin</ul>
+<ul>Burkina Faso</ul>
+<ul>Cameroon</ul>
+<ul>Central African Republic</ul>
+<ul>Chad</ul>
+<ul>Cote d’ Ivoire</ul>
+<ul>Djibouti</ul>
+<ul>Egypt</ul>
+<ul>Eritrea</ul>
+<ul>Ethiopia</ul>
+<ul>Gambia</ul>
+<ul>Ghana</ul>
+<ul>Guinea</ul>
+<ul>Guinea Bissau</ul>
+<ul>Iraq</ul>
+<ul>Kenya</ul>
+<ul>Liberia</ul>
+<ul>Mali</ul>
+<ul>Maldives</ul>
+<ul>Mauritania</ul>
+<ul>Niger</ul>
+<ul>Nigeria</ul>
+<ul>Senegal</ul>
+<ul>Sierra Leone</ul>
+<ul>Somalia</ul>
+<ul>Sudan</ul>
+<ul>Togo</ul>
+<ul>Uganda</ul>
+<ul>United Republic of Tanzania</ul>
+<ul>Yemen</ul>
+
+
+<h3>Developing Analysis Data File:</h3>
+<p>The original data were separated in 3 files: 1) prevalence of FGM by countries 2) attitude toward FGM by countries, and 3) socio-economic information such as education, labor force participation and urban/rural population by countries.  Information in these files were pulled together through joining on country names.</p>
+ 
+<h3>Analysis Methods:</h3>
+<p>There are some limitations in the availability of data for some countries. Therefore, we used all the available data and conducted region-based analyses (Primarily Africa). 
+
+<blockquote>Step 1: Analyze the overall characteristics of FGM practice using data visualization methods such as scatter plots and bar charts.</blockquote> 
+<blockquote>Step 2: Analyze what factors are associated with the prevalence of FGM using a regression analysis. The dependent variable was the prevalence of FGM, and the independent variables were percentages of urban/rural residents, income levels, education levels, and opposition of women against FGM.</blockquote>   
+<blockquote>Step 3: Analyze how long it might potentially take to eradicate FGM practices using survival analysis if the percentage of women opposing FGM increases. The survival model was developed based on the data between 2010 and 2018.</blockquote> 
+</p>
+ 
+<h3>Findings:</h3>
+<p>
+The results of the regression analysis indicated 2 factors can potentially reduce the prevalence of FGM: 1) increased percentage of women with higher than secondary education and 2) increased percentage of women who oppose FGM. A high percentage of women with high income or of those living in the urban areas do not appear to help in reducing the practice. 
+The results of survival analysis indicated if the percentages of women opposing FGM increases by 10-13% every year for 7 years, the practice might be eradicated in the 8th year. 
+</p> 
+
+<h3>Conclusion:</h3>
+<p>
+Our analysis results presented the two factors that might help reducing the prevalence of FGM: 1) high school (or higher than high school) education for women and 2) increasing the percent of women opposing FGM.  It might take 7 – 8 years of steady increase in the number of women voicing their opposition against the practice to fully eradicate it. 
+Seven years sounds like a long time, but we believe this is a relatively fast pace of eradication since it is well-known that changing human behaviors (including FGM) is difficult. To accelerate the process further, international communities might need to increase their awareness of the issue, and work together more closely to improve the opportunities for women to speak up and gain higher education.
+</p>
+</body>
+</html>
