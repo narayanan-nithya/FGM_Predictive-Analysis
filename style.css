@@ -8,9 +8,29 @@ body {
 #map,
 body,
 html {
-  height: 100%;
+  margin-left: 100px;
+  height: 85%;
+  width: 85%;
 }
-
-h1 {
-  text-align: center;
+h2 {
+  font-family: fantasy;
+  width:750px;
+  height: 250px;
+}
+p{
+  margin-top: 15px;
+  font-family: cursive;
+}
+h3{
+  font-family: fantasy;
+}
+h4{
+  font-family: fantasy;
+  margin-left: 25px;
+}
+blockquote{
+  font-family: cursive;
+}
+ul{
+  font-family: cursive;
 }
