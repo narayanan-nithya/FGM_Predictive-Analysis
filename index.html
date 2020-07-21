@@ -26,18 +26,25 @@
 <body>
        <!-- ======= About Section ======= -->
   <div class="container">
-      <h2 style="background-image: url('FGM.jpg');background-size: cover">About FGM/C Practice</h2>
+        <div class="row">
+        <div class="col-sm-12 jumbotron">
+          <img src="FGM.jpg" class="img-fluid" alt="End FGM">
+        </div>
+        </div>
+      </div>
+  <div class="container">
+      <h1 style="background-color: palevioletred;color: purple;font-size: xx-large;font-family: fantasy;text-align: justify">About FGM/C Practice</h1>
       <p>The World Health Organization (WHO) defines Female Genital Mutilation/Cutting (FGM/C) as all procedures involving partial or total removal of the external female genitalia or other injury to the female genital organs for nonmedical reasons. The estimated number of women who have undergone FGM is <a href="https://data.unicef.org/topic/child-protection/female-genital-mutilation/#:~:text=Data%20sources,other%20nationally%20representative%20household%20surveys.">at least 200 million across 31 countries.</a> FGM can cause both short and long term health problems such as excessive bleeding, vaginal inflammation caused by bacteria and newborn death. Despite these negative health consequences and intensified eradication efforts, FGM has continuously been performed partly because of the evidence gaps that hinder a comprehensive evidence-based approach to FGM.</p>
-      
-    </div>
+      </div>
+  
     <div class="container">
       <h3>Where Is It Prevalent?</h3>
     </div>
       <div id="map"></div>
       <!-- API key -->
-      <script type="text/javascript" src="config.js"></script>
+      <script type="text/javascript" src="static/config.js"></script>
       <!-- Our JS -->
-      <script type="text/javascript" src="logic.js"></script>
+      <script type="text/javascript" src="static/logic.js"></script>
       
     <!-- ======= Description  ======= -->
     <div class="skills container" style="padding:20px">
@@ -47,40 +54,8 @@
       </div>
 
       <p style = "color:black;font-size : 15px">The goal of this study is to examine what factors might reduce the FGM practice and how long it might take to eradicate it.</p>
-      <h3>Analysis Method</h3>
         <h4>Data Source</h4>
         <p style = "color:black;font-size : 15px">UNICEF : National representative data on FGM or Cutting are mainly available from <a href="https://data.unicef.org/topic/child-protection/female-genital-mutilation/#:~:text=Data%20sources,other%20nationally%20representative%20household%20surveys.">Demographic and Health Surveys (DHS) and Multiple Indicator Cluster Surveys (MICS).</a>   We used data from 2004 through 2018.</p>
-        <h4>Countries included in the source data:</h4>
-            <ul>Benin</ul>
-            <ul>Burkina Faso</ul>
-            <ul>Cameroon</ul>
-            <ul>Central African Republic</ul>
-            <ul>Chad</ul>
-            <ul>Cote d’ Ivoire</ul>
-            <ul>Djibouti</ul>
-            <ul>Egypt</ul>
-            <ul>Eritrea</ul>
-            <ul>Ethiopia</ul>
-            <ul>Gambia</ul>
-            <ul>Ghana</ul>
-            <ul>Guinea</ul>
-            <ul>Guinea Bissau</ul>
-            <ul>Iraq</ul>
-            <ul>Kenya</ul>
-            <ul>Liberia</ul>
-            <ul>Mali</ul>
-            <ul>Maldives</ul>
-            <ul>Mauritania</ul>
-            <ul>Niger</ul>
-            <ul>Nigeria</ul>
-            <ul>Senegal</ul>
-            <ul>Sierra Leone</ul>
-            <ul>Somalia</ul>
-            <ul>Sudan</ul>
-            <ul>Togo</ul>
-            <ul>Uganda</ul>
-            <ul>United Republic of Tanzania</ul>
-            <ul>Yemen</ul>
         
         <h3>Developing Analysis Data File:</h3>
             <p style = "color:black;font-size : 15px">The original data were separated in 5 files: Information in these files were pulled together through joining on country names.</p>
@@ -89,33 +64,34 @@
                <ul>Socio-economic information such as education, labor force participation and urban/rural population by countries.</ul>
                <ul>Combining the last 8 year's yearly Opposing Continuity Survey Data for Survival Analysis.</ul>
                <ul>Decision Tree Model on opposing continuity factor.</ul>
-                  
- 
+             
         <h3>Analysis Methods:</h3>
             <p style = "color:black;font-size : 15px">There are some limitations in the availability of data for some countries. Therefore, we used all the available data and conducted region-based analyses (Primarily Africa). 
 
-                <blockquote>Step 1: Analyze the overall characteristics of FGM practice using data visualization methods such as scatter plots and bar charts.</blockquote> 
-                <blockquote>Step 2: Analyze what factors are associated with the prevalence of FGM using a regression analysis. The dependent variable was the prevalence of FGM, and the independent variables were percentages of urban/rural residents, income levels, education levels, and opposition of women against FGM.</blockquote>   
-                <blockquote>Step 3: Analyze how long it might potentially take to eradicate FGM practices using survival analysis if the percentage of women opposing FGM increases. The survival model was developed based on the data between 2010 and 2018.</blockquote> 
-                <blockquote>Step 4: Classify our data of opposing continuity over the years using Decision Tree to see how well the model fits the probability.</blockquote> 
+                <blockquote style ="color:orange">Step 1: Analyze the overall characteristics of FGM practice using data visualization methods such as scatter plots and bar charts.</blockquote> 
+                <blockquote style ="color:palevioletred">Step 2: Analyze what factors are associated with the prevalence of FGM using a regression analysis. The dependent variable was the prevalence of FGM, and the independent variables were percentages of urban/rural residents, income levels, education levels, and opposition of women against FGM.</blockquote>   
+                <blockquote style ="color:orange">Step 3: Analyze how long it might potentially take to eradicate FGM practices using survival analysis if the percentage of women opposing FGM increases. The survival model was developed based on the data between 2010 and 2018.</blockquote> 
+                <blockquote style ="color:palevioletred">Step 4: Classify our data of opposing continuity over the years using Decision Tree to see how well the model fits the probability.</blockquote> 
                 </p>
         
 
           <div class="container">
             <div class="section-title">
             <h3>Visualizations</h3>
-            <p><a href="visual1.html" style ="color:black" target="_blank">Prevalence %</a></p>
-            <p><a href="visual2.html" style ="color:black" target="_blank">Urban To Rural %</a></p>
-            <p><a href="visual3.html" style ="color:black" target="_blank">High Income Vs Prevalence</a></p>
-            <p><a href="visual4.html" style ="color:black" target="_blank">Opposing Continuity Vs Education</a></p>
-            <p><a href="visual5.html" style ="color:black" target="_blank">Opposing Continuity Vs Prevalence</a></p>
+            <p><a href="visual1.html" style ="color:palevioletred" target="_blank">Prevalence %</a></p>
+            <p><a href="visual2.html" style ="color:orange" target="_blank">Urban To Rural %</a></p>
+            <p><a href="visual3.html" style ="color:palevioletred" target="_blank">High Income Vs Prevalence</a></p>
+            <p><a href="visual4.html" style ="color:orange" target="_blank">Opposing Continuity Vs Education</a></p>
+            <p><a href="visual5.html" style ="color:palevioletred" target="_blank">Opposing Continuity Vs Prevalence</a></p>
             </div>
           </div>
 
           <h3>Findings:</h3>
             <p style = "color:black;font-size : 15px">
-            The results of the regression analysis indicated 2 factors can potentially reduce the prevalence of FGM: 1) increased percentage of women with higher than secondary education and 2) increased percentage of women who oppose FGM. A high percentage of women with high income or of those living in the urban areas do not appear to help in reducing the practice. 
-            The results of survival analysis indicated if the percentages of women opposing FGM increases by 10-13% every year for 7 years, the practice might be eradicated in the 8th year. 
+            The results of the regression analysis indicated 2 factors can potentially reduce the prevalence of FGM:</p>
+            <ol style="color: orange;font-family:cursive">Increased percentage of women with higher than secondary education</ol>
+            <ol style="color: orange;font-family:cursive">Increased percentage of women who oppose FGM.</ol> <p> High percentage of women with high income or of those living in the urban areas do not appear to help in reducing the practice.</p>
+            <p style="color: palevioletred">The results of survival analysis indicated if the percentages of women opposing FGM increases by 10-13% every year for 7 years, the practice might be eradicated by the 8th year. 
             </p> 
             <div class="row">
             <div class="col-sm-5">
@@ -129,9 +105,9 @@
             </div>
 
         <h3>Conclusion:</h3>
-            <p style = "color:palevioletred; font-weight: bold">
+            <p style = "color:orange; font-weight: bold">
              Female Genital Mutilation/Cutting is a inhumane practice and a violation to human rights. No child or woman should be subjected to this horrific practice.</p>
-            <p style = "color:palevioletred; font-weight: bold">Our Analysis clearly is indicative of higher the education for women , the lower the prevalence of such practices.</p>
+            <p style = "color:orange; font-weight: bold">Our Analysis clearly is indicative of higher the education for women , the lower the prevalence of such practices.</p>
             <p style="font-weight: bold"> It might take 7 – 8 years of steady increase in the number of women voicing their opposition against the practice to fully eradicate it. 
             Seven years sounds like a long time, but we believe this is a relatively fast pace of eradication since it is well-known that changing human behaviors (including FGM) is difficult. To accelerate the process further, international NGO's like END FGM are continuously making progress by :
             <ul>Policy Influence And Monitoring.</ul>
@@ -143,8 +119,11 @@
       </div>
     </div><!-- End Description -->
   </section><!-- End About Section -->
+  
+  <footer style="background-color:palevioletred">
+    <p style="color:purple;text-align:center ;">&copy; FGM/C analysis created by Nithya Narayanan & Mika Nagamine &copy; 2020</p>
+  </footer>
 
-      
 </body>
 
 </html>

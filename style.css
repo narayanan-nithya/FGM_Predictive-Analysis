@@ -13,20 +13,23 @@ html {
   width: 85%;
 }
 h2 {
+  margin-top: 15px;
   font-family: fantasy;
   width:750px;
   height: 250px;
+  color:purple;
 }
 p{
   margin-top: 15px;
   font-family: cursive;
 }
 h3{
+  color:purple;
   font-family: fantasy;
 }
 h4{
   font-family: fantasy;
-  margin-left: 25px;
+  margin-left: 10px;
 }
 blockquote{
   font-family: cursive;
