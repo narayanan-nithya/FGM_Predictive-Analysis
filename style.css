@@ -14,28 +14,28 @@ html {
 }
 h2 {
   margin-top: 15px;
-  font-family: fantasy;
+  font-family: 'Times New Roman', Times, serif;
   width:750px;
   height: 250px;
   color:purple;
 }
 p{
   margin-top: 15px;
-  font-family: cursive;
+  font-family:'Courier New', Courier, monospace;
 }
 h3{
-  color:purple;
-  font-family: fantasy;
+  color:maroon;
+  font-family: 'Times New Roman', Times, serif;
 }
 h4{
-  font-family: fantasy;
+  font-family: 'Times New Roman', Times, serif;
   margin-left: 5px;
 }
 blockquote{
-  font-family: cursive;
+  font-family: monospace;
 }
 ul{
-  font-family: cursive;
+  font-family: monospace;
 }
 .col-md-2{
   margin-right: 35px;
