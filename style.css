@@ -29,11 +29,15 @@ h3{
 }
 h4{
   font-family: fantasy;
-  margin-left: 10px;
+  margin-left: 5px;
 }
 blockquote{
   font-family: cursive;
 }
 ul{
   font-family: cursive;
+}
+.col-md-2{
+  margin-right: 35px;
+
 }
